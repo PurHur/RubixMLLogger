@@ -37,7 +37,7 @@
     "psr-4": {
       "Rubix\\ML\\": "src/"
     }
-  }
+  },
   "funding": [
     {
       "type": "github",
