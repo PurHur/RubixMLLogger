@@ -20,7 +20,7 @@ class BlackHole extends Logger
      * @param string $message
      * @param mixed[] $context
      */
-    public function log($level, $message, array $context = []) : void
+    public function log(string|\Stringable $message, array $context = []) : void
     {
         // ⬤
     }
