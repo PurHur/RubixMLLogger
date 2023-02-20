@@ -17,10 +17,10 @@ class BlackHole extends Logger
      * Logs with an arbitrary level.
      *
      * @param mixed $level
-     * @param string $message
+     * @param string|\Stringable $message
      * @param mixed[] $context
      */
-    public function log(string|\Stringable $message, array $context = []) : void
+    public function log($level, string|\Stringable $message, array $context = []) : void
     {
         // ⬤
     }
